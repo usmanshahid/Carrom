@@ -64,6 +64,37 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="board.h" />
+    <ClInclude Include="carrom_rules.h" />
+    <ClInclude Include="cloud.h" />
+    <ClInclude Include="constants.h" />
+    <ClInclude Include="disc.h" />
+    <ClInclude Include="disc_engine.h" />
+    <ClInclude Include="game.h" />
+    <ClInclude Include="GL\glut.h" />
+    <ClInclude Include="player.h" />
+    <ClInclude Include="point_carrom_rules.h" />
+    <ClInclude Include="pot.h" />
+    <ClInclude Include="SOIL.h" />
+    <ClInclude Include="vec2d.h" />
+    <ClInclude Include="vec3d.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="board.cpp" />
+    <ClCompile Include="carrom_rules.cpp" />
+    <ClCompile Include="cloud.cpp" />
+    <ClCompile Include="disc.cpp" />
+    <ClCompile Include="disc_engine.cpp" />
+    <ClCompile Include="game.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="point_carrom_rules.cpp" />
+    <ClCompile Include="pot.cpp" />
+    <ClCompile Include="vec2d.cpp" />
+    <ClCompile Include="vec3d.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="glut32.lib" />
+    <Library Include="SOIL.lib" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
