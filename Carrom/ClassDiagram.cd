@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="board" Collapsed="true">
+    <Position X="6.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAFACAAABAgCoIAAAAAAAEBAIEFJAAgBAAAiAA=</HashCode>
+      <FileName>board.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="carrom_rules" Collapsed="true">
+    <Position X="3.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAgAAAAAAAAAAAACgAAACAAAAAAABAAAAAAAAA=</HashCode>
+      <FileName>carrom_rules.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="disc" Collapsed="true">
+    <Position X="9" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIgAAAQIAAAACAgAAAIAIIAAAAABAACAAAQAAAAAAEA=</HashCode>
+      <FileName>disc.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="disc_engine" Collapsed="true">
+    <Position X="6.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABgAAABAQAAAAAgEAAIAAgAAgAAIAgAAACEAAAAAAgA=</HashCode>
+      <FileName>disc_engine.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="game" Collapsed="true">
+    <Position X="12.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIIAAAAAAAAAI=</HashCode>
+      <FileName>game.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="point_carrom_rules" Collapsed="true">
+    <Position X="3.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>point_carrom_rules.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="discToSink" Collapsed="true">
+    <Position X="10.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAAAAAAQAACAAAAAAAgAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>pot.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="pot" Collapsed="true">
+    <Position X="9" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAAAACAAAAAIAAoAAAACIAAAAAAAAAAACAAA=</HashCode>
+      <FileName>pot.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="vec2d" Collapsed="true">
+    <Position X="10.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAwCgAAAAAQAQAAAAAAAIAAAABgAABABAA=</HashCode>
+      <FileName>vec2d.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="vec3d" Collapsed="true">
+    <Position X="12.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAwEgAAAAAQAAAAAAAAAIAAAABgAQBABAA=</HashCode>
+      <FileName>vec3d.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="player">
+    <Position X="9" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAIIAAAAAAEAIAAAAAAAAAAAAA=</HashCode>
+      <FileName>player.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Enum Name="DIRECTION" Collapsed="true">
+    <Position X="11.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAAAAAAAICAAAgAAAAAAAAAAA=</HashCode>
+      <FileName>constants.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
